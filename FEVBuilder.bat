@@ -92,7 +92,7 @@ cd %~dp0\SoundBones\
 echo Gathering SoundBones:
 forfiles /c "cmd /c %~dp0\FEVBuilder_4.44\fmod_designercl.exe @fname.@ext -pc -b %~dp0\Build\FmodEvents
 
-del /s /q "%~dp0\Build\FEVBuilder_4.44\*.fsb
+del /s /q "%~dp0\Build\FmodEvents\*.fsb
 pause
 exit
 
